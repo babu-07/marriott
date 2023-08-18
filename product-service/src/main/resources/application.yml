@@ -1,0 +1,12 @@
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/microshop
+    username: postgres
+    password: Babu@7700
+    pool:
+      initial-size: 5
+
+
+server:
+  port: 9000
